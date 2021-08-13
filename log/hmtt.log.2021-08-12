@@ -1,0 +1,28 @@
+2021-08-12 19:48:49,239 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-12 19:48:49,239 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-12 19:48:49,240 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-12 19:48:49,353 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-12 19:49:10,147 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-12 19:49:10,147 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-12 19:49:10,148 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-12 19:49:10,270 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg3NzYxNTEsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.AF89J_z5bcslFBw9Nuj1g6E6Jqz-8D7-W7NypzZOhbg'}
+2021-08-12 19:49:10,270 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-12 20:02:19,442 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-12 20:02:19,443 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-12 20:02:19,443 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-12 20:02:19,569 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg3NzY5NDAsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.DsSUEsopvUOL6PnWgYoQWakMtNnUpCIAZrHu0pVztBY'}
+2021-08-12 20:02:19,569 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-12 20:02:19,573 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-12 20:02:19,698 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-12 20:18:55,521 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-12 20:18:55,521 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-12 20:18:55,522 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-12 20:18:55,611 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-12 20:18:55,675 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-12 20:19:14,437 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-12 20:19:14,437 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-12 20:19:14,438 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-12 20:19:14,514 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg3Nzc5NTUsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Cpy_sdADVt0w3MG5aHEbpoeSIc1CMs7P5Zcc60vkb4k'}
+2021-08-12 20:19:14,514 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-12 20:19:14,518 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-12 20:19:14,606 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！

@@ -1,0 +1,407 @@
+2021-08-13 12:55:39,481 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 12:55:39,483 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 12:55:39,484 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 12:55:39,615 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 12:55:39,698 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 12:55:40,083 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4Mzc3NDAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.qZtHWJQbGANKSetlolGrDf4eUmgJ5X2w2RKvHP209ik'}
+2021-08-13 12:55:40,089 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 12:57:11,277 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 12:57:11,277 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 12:57:11,278 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 12:57:11,413 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 12:57:11,519 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 12:57:11,796 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4Mzc4MzIsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.N9vZ9H7oOlY40uzagY_AlDIve_1pPpQVm9K3Ds5X6nU'}
+2021-08-13 12:57:11,798 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 15:52:49,374 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 15:52:49,374 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 15:52:49,375 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 15:52:49,376 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 15:52:49,622 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NDgzNzAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.iB0Dxd2YVo9lHjlUuigt3QW_Xwn9UASceCEAznivHr4'}
+2021-08-13 15:52:49,624 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:09:03,867 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 16:09:03,867 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 16:09:03,868 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 16:09:03,868 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 16:09:04,212 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NDkzNDQsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.jUbbitb-ql9RZyka-qoQzWp4GjtQZ8xMpKaJQYR1gGs'}
+2021-08-13 16:09:04,215 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:09:04,230 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 16:09:04,358 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:09:04,358 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 16:09:04,437 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 16:09:04,555 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:09:04,555 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 16:11:43,660 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 16:11:43,661 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 16:11:43,661 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 16:11:43,661 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 16:11:43,822 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NDk1MDQsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.qB6wv9q3zXW6BXTNac9MLaDTwPnWVwPFzjlVEhzZN5A'}
+2021-08-13 16:11:43,827 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:11:43,846 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 16:11:43,918 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:11:43,919 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 16:11:43,990 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 16:11:44,065 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:11:44,065 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 16:12:22,576 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 16:12:22,576 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 16:12:22,577 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 16:12:22,663 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NDk1NDMsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.DZNLv7EZFGvGzUnh6qLBgMZVGNcOEh5bKdPWL_RQMAI'}
+2021-08-13 16:12:22,665 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:12:22,676 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 16:12:22,865 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:12:22,880 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 16:12:22,882 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 16:12:22,882 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 16:12:22,882 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 16:12:23,081 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NDk1NDMsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.6MPFYuUay6ZiR0HyMtQ3v41DndvfVjW0_tpNY3k_VM0'}
+2021-08-13 16:12:23,083 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:12:23,100 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 16:12:23,168 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:12:23,169 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 16:12:23,251 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [1426094268207857664], 'status': 2} 请求信息头
+2021-08-13 16:12:23,322 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:12:23,323 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 16:43:28,943 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 16:43:28,943 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 16:43:28,944 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 16:43:29,065 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NTE0MDksInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.-n7WQOGSNEu6nD9KJu8HIWjNQ-NfNgUSx0krli8hNYI'}
+2021-08-13 16:43:29,065 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:43:29,076 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 16:43:29,183 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:43:29,190 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 16:43:29,190 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 16:43:29,190 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 16:43:29,191 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 16:43:29,400 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NTE0MTAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.qSFSQZlh7716Nj5CBjjxfqAZ82F-HyIswxCrMAc84qw'}
+2021-08-13 16:43:29,402 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:43:29,418 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 16:43:29,549 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:43:29,549 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 16:43:29,634 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [1426102096293265408], 'status': 2} 请求信息头
+2021-08-13 16:43:29,698 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 16:43:29,698 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:08:32,100 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:08:32,100 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:08:32,101 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:08:32,225 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAxMTMsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.z9ZRiIYMVlWnast-mVJ0WL4PAALVFtXYb5bGo8R73PQ'}
+2021-08-13 19:08:32,225 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:08:32,233 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:08:32,369 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:08:32,382 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:08:32,382 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:08:32,382 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:08:32,383 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:08:32,588 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAxMTMsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.zezxL-V2af-SYsSx5LXS6In-2cfQFdsyny4jdpQZqHA'}
+2021-08-13 19:08:32,590 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:08:32,606 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:08:32,740 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:08:32,740 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:08:32,823 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [1426138600726069248], 'status': 2} 请求信息头
+2021-08-13 19:08:32,904 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:08:32,904 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:10:02,698 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:10:02,698 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:10:02,699 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:10:02,766 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:10:02,842 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:10:02,901 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:10:02,901 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:10:02,901 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:10:02,902 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:10:03,113 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAyMDQsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.D18B6h9LZ2Nn5R_OD193F98Jxdm7K2AHEUI3zGVu8Eo'}
+2021-08-13 19:10:03,114 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:03,118 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:10:03,188 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:03,188 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:10:03,200 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:10:03,270 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:03,270 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:10:14,093 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:10:14,093 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:10:14,094 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:10:14,169 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:10:14,241 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:10:14,313 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:10:14,313 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:10:14,313 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:10:14,314 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:10:14,517 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAyMTUsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.R04pZPCVwuG8777ljkskgZbxDG7AoppCi0iMLH08Wpw'}
+2021-08-13 19:10:14,519 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:14,535 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:10:14,598 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:14,598 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:10:14,613 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:10:14,696 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:14,697 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:10:17,862 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:10:17,862 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:10:17,862 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:10:17,943 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAyMTksInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Y6WcN5a2ho3ZTgbkZ1RgFFtSNU6JB3A8vZrGTkLHe4c'}
+2021-08-13 19:10:17,945 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:17,951 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:10:18,036 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:18,043 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:10:18,043 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:10:18,044 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:10:18,045 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:10:18,228 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAyMTksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.lBvNylo4w3ebpclZjMAEp9LSyN2b6NS2KTXovFebdzY'}
+2021-08-13 19:10:18,231 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:18,249 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:10:18,327 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:18,327 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:10:18,396 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [1426139043917201408], 'status': 2} 请求信息头
+2021-08-13 19:10:18,474 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:10:18,474 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:11:52,942 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:11:52,942 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:11:52,944 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:11:53,030 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:11:53,105 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:11:53,190 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:11:53,190 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:11:53,190 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:11:53,191 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:11:53,371 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMTQsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.qnNJzeq-AMJojv8KQrAA3J1pgZdSTPPSB224Afti9bA'}
+2021-08-13 19:11:53,373 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:11:53,388 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:11:53,455 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:11:53,456 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:11:53,469 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:11:53,557 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:11:53,557 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:11:53,642 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMTQsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlfQ.t0AxcXwtYYC8c7I0blo8RZ1NdeuiZ-H-fkXwGp--JOE'}
+2021-08-13 19:11:53,642 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:11:56,763 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:11:56,763 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:11:56,764 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:11:56,836 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:11:56,903 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:11:56,971 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:11:56,971 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:11:56,971 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:11:56,972 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:11:57,135 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMTgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.QnmlTndiyohjuU7PXrH57ZVAOSC2Z5P0p26CO7dULrE'}
+2021-08-13 19:11:57,137 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:11:57,143 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:11:57,216 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:11:57,216 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:11:57,223 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:11:57,307 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:11:57,307 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:11:59,860 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:11:59,860 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:11:59,861 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:11:59,943 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:12:00,011 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:12:00,071 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:12:00,071 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:12:00,071 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:12:00,071 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:12:00,258 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMjEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.rxVdxI0phClpYtZ1jFu9Bm30hWx0Jb03L3z7t_HPoIs'}
+2021-08-13 19:12:00,260 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:00,268 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:12:00,343 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:00,344 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:12:00,369 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:12:00,442 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:00,442 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:12:00,532 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMjEsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlfQ.IIuvSEVrj1Co8wNAToo3-2peokdNgyz7a-81vm2I3O0'}
+2021-08-13 19:12:00,533 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:02,880 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:12:02,880 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:12:02,880 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:12:02,963 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:12:03,031 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:12:03,115 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:12:03,115 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:12:03,115 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:12:03,116 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:12:03,316 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMjQsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.RdeDTqoKLdzr5EhmHxXTxwEkRCWCcgjBmAILCRAabsc'}
+2021-08-13 19:12:03,317 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:03,329 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:12:03,406 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:03,407 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:12:03,418 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:12:03,499 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:03,499 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:12:03,587 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMjQsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlfQ.WREqKXGqOqMPycrZnYwCWn_7W6Kc2u6Sa2HYM3IKVqY'}
+2021-08-13 19:12:03,587 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:06,080 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:12:06,080 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:12:06,080 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:12:06,152 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:12:06,221 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:12:06,299 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:12:06,299 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:12:06,299 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:12:06,300 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:12:06,467 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMjcsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.YgCrP1gcjDNwHn3Qy4CqiDhbYmY7NI11CMdwyfVncZM'}
+2021-08-13 19:12:06,469 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:06,484 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:12:06,557 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:06,558 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:12:06,570 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:12:06,644 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:06,644 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:12:09,336 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:12:09,336 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:12:09,337 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:12:09,402 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:12:09,470 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:12:09,550 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:12:09,550 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:12:09,550 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:12:09,551 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:12:09,698 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMzAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.sfOCp9CzbJy3vohj2P_Kh4PqCdzlPAlR7ihJJdf6KWw'}
+2021-08-13 19:12:09,699 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:09,715 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:12:09,793 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:09,793 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:12:09,806 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:12:09,883 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:09,884 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:12:12,322 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:12:12,322 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:12:12,323 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:12:12,409 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMzMsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Pf0Xaw2k0nii_PDW-NM-GL0lnSL3Sv6vnp0JZCMkFo4'}
+2021-08-13 19:12:12,409 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:12,413 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:12:12,484 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:12,490 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:12:12,490 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:12:12,490 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:12:12,491 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:12:12,665 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMzMsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.n6T8I6MNtW5DCfc_HvIeEk8F1QDo_uyUKikjwbFYAxY'}
+2021-08-13 19:12:12,667 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:12,684 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:12:12,752 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:12,753 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:12:12,828 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [1426139523993042944], 'status': 2} 请求信息头
+2021-08-13 19:12:14,876 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:12:14,877 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:18:25,128 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:18:25,129 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:18:25,129 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:18:25,207 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:18:25,280 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:18:25,357 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:18:25,357 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:25,357 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:25,358 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:18:25,539 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjA3MDYsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.YR9Fi_q5rNTOjrMiTKBhWyJOQ4EDK6MNhJg-uGW_K_c'}
+2021-08-13 19:18:25,542 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:25,548 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:18:25,629 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:25,629 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:18:25,646 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:18:25,717 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:25,718 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:18:28,449 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:18:28,449 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:18:28,450 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:18:28,528 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:18:28,598 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:18:28,665 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:18:28,665 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:28,665 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:28,665 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:18:28,831 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjA3MDksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.ucK9etPekXA_AQQF4k7z1dFEfGKbv4An4V_jpNAnrHA'}
+2021-08-13 19:18:28,833 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:28,843 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:18:28,924 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:28,925 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:18:28,948 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:18:29,026 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:29,026 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:18:31,757 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:18:31,757 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:18:31,758 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:18:31,835 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:18:31,896 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:18:31,968 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:18:31,968 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:31,968 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:31,969 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:18:32,143 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjA3MTMsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.8Vuk0JsyztGH7Scrblzc2o08DoV6cm0bD0vZnYIxvQw'}
+2021-08-13 19:18:32,146 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:32,163 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:18:32,226 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:32,227 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:18:32,240 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:18:32,315 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:32,315 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:18:34,733 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:18:34,734 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:18:34,734 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:18:34,812 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:18:34,882 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:18:34,948 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:18:34,948 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:34,948 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:34,949 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:18:35,105 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjA3MTYsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.2Or31yWxScKldvxfvTmTPSpHky95yWiB8QEdPMXUxB8'}
+2021-08-13 19:18:35,106 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:35,112 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:18:35,193 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:35,193 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:18:35,204 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:18:35,269 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:35,269 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:18:37,474 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:18:37,475 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:18:37,475 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:18:37,548 ERROR [test01_mp.py(test01_mp_login:30)] - 'NoneType' object has no attribute 'get'
+2021-08-13 19:18:37,615 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:18:37,682 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:18:37,683 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:37,683 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:37,683 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:18:37,854 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjA3MTgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.yQSmX8odl-wEXAdV7Sp36xBMs-Q9A4nTLjrz6XZbR_M'}
+2021-08-13 19:18:37,856 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:37,867 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:18:37,934 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:37,935 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:18:37,948 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [None], 'status': 2} 请求信息头
+2021-08-13 19:18:38,009 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:38,009 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:18:40,433 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:18:40,433 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:18:40,433 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:18:40,512 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjA3MjEsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.tNBYwYEb5jISv8tF6s9ZQVunBRrMCS4Y_r_Ewy-C13I'}
+2021-08-13 19:18:40,512 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:40,518 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:18:40,604 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:40,607 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:18:40,607 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:40,607 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:18:40,607 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:18:40,783 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjA3MjEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.pSvXcWbPn-nftCjitjJONgcCnESo3t-WWV-kNtkr2sE'}
+2021-08-13 19:18:40,785 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:40,796 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:18:40,875 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:40,875 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:18:40,951 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [1426141151882117120], 'status': 2} 请求信息头
+2021-08-13 19:18:41,022 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:18:41,022 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:32:08,232 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2021-08-13 19:32:08,232 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2021-08-13 19:32:08,232 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+2021-08-13 19:32:08,326 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjE1MjksInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.-MqEicEdgbJCwSniT0IJ8fNYFjBjyoPR-WDcbp1TDCI'}
+2021-08-13 19:32:08,327 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:32:08,332 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-nj-001', 'content': '何焯然真是个小可爱！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2021-08-13 19:32:08,414 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:32:08,427 INFO [api_mis.py(__init__:13)] - 正在初始化后台管理系统 登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-08-13 19:32:08,427 INFO [api_mis.py(__init__:16)] - 正在初始化后台管理系统 查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:32:08,427 INFO [api_mis.py(__init__:19)] - 正在初始化后台管理系统 审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-08-13 19:32:08,429 INFO [api_mis.py(api_mis_login:30)] - 正在调用后台管理系统 登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头
+2021-08-13 19:32:08,562 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjE1MjksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.xFcODtWvNj3PHLK1UT-XCR89MTrz97dcY8gS3_cd3vs'}
+2021-08-13 19:32:08,563 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:32:08,570 INFO [api_mis.py(api_mis_search:43)] - 正在调用后台管理系统 查询文章接口，请求数据：{'title': 'test-nj-001', 'channel': '数据库'} 请求信息头
+2021-08-13 19:32:08,648 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:32:08,649 ERROR [test02_mis.py(test02_mis_search:43)] - 
+2021-08-13 19:32:08,730 INFO [api_mis.py(api_mis_audit:56)] - 正在调用后台管理系统 审核文章接口，请求数据：{'article_ids': [1426144540162523136], 'status': 2} 请求信息头
+2021-08-13 19:32:08,798 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法！
+2021-08-13 19:32:08,798 ERROR [test02_mis.py(test03_mis_audit:56)] - 
+2021-08-13 19:32:08,806 INFO [api_app.py(__init__:14)] - 正在初始化app应用登录url：http://ttapi.research.itcast.cn/app/v1_0/authorizations
+2021-08-13 19:32:08,806 INFO [api_app.py(__init__:17)] - 正在初始化app应用查询频道下所有文章url：http://ttapi.research.itcast.cn/app/v1_1/articles
+2021-08-13 19:32:08,807 INFO [api_app.py(api_app_login:23)] - 正在调用app登录接口方法，请求参数：{'mobile': '13812345678', 'code': '246811'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjE1MjksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.xFcODtWvNj3PHLK1UT-XCR89MTrz97dcY8gS3_cd3vs'}

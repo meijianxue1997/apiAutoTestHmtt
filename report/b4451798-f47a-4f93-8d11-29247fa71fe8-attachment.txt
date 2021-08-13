@@ -1,0 +1,3 @@
+[32mINFO    [0m root:api_app.py:14 正在初始化app应用登录url：http://ttapi.research.itcast.cn/app/v1_0/authorizations
+[32mINFO    [0m root:api_app.py:17 正在初始化app应用查询频道下所有文章url：http://ttapi.research.itcast.cn/app/v1_1/articles
+[32mINFO    [0m root:api_app.py:23 正在调用app登录接口方法，请求参数：{'mobile': '13812345678', 'code': '246811'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjE1MjksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.xFcODtWvNj3PHLK1UT-XCR89MTrz97dcY8gS3_cd3vs'}

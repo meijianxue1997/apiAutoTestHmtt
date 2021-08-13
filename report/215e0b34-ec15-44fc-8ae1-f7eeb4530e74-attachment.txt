@@ -1,0 +1,5 @@
+[32mINFO    [0m root:api_mp.py:14 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+[32mINFO    [0m root:api_mp.py:17 正在初始化自媒体发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+[32mINFO    [0m root:api_mp.py:28 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246811'}
+[32mINFO    [0m root:tool.py:14 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAxMTMsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.z9ZRiIYMVlWnast-mVJ0WL4PAALVFtXYb5bGo8R73PQ'}
+[32mINFO    [0m root:tool.py:19 正在调用公共断言方法！

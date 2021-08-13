@@ -1,0 +1,2 @@
+[32mINFO    [0m root:tool.py:14 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjg4NjAzMjQsInVzZXJfaWQiOjEzNjM0MTUxNTA3MTQ5NDU1MzYsInJlZnJlc2giOmZhbHNlfQ.WREqKXGqOqMPycrZnYwCWn_7W6Kc2u6Sa2HYM3IKVqY'}
+[32mINFO    [0m root:tool.py:19 正在调用公共断言方法！
